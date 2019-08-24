@@ -4,52 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>自己紹介ページ</title>
+    <link rel="stylesheet" href="./main.css">
     <script src="./js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <script src="./js/bootstrap.js"></script>
 </head>
 
-<body>
+<body padding:30px>
     <nav class="navbar navbar-dark bg-dark">
         <a href="#" class="navbar-brand">
             自己紹介のページ
         </a>
     </nav>
 
-    <ul>
-        <li>名前</li>田中大奨
-        <li>すんでいるところ</li>神奈川の鎌倉
-        <li>学年</li>大学1年
-        <li></li>
-        <li></li>
+    <ul class="list-group" style="max-width: 400px;">
+        <li class="list-group-item">名前</li>
+        <p class="list-group-item-text">田中大奨</p>
+        <li class="list-group-item">すんでいるところ</li>
+        <p class="list-group-item-text">神奈川の鎌倉</p>
+        <li class="list-group-item">学年</li>
+        <p class="list-group-item-text">大学1年</p>
+        <li class="list-group-item">趣味</li>
+        <p class="list-group-item-text">釣り、ヨット</p>
+        <li class="list-group-item">将来の夢</li>
+        <p class="list-group-item-text">情報全般につよいひとになりたい</p>
     </ul>
 
-    <div class="container-fuild border">
-            <div class="row">
-              <div class="col-4">
-                <div class="list-group" id="list-tab" role="tablist">
-                  <a class="list-group-item list-group-item-action active" id="tab-menu-1"
-                      data-toggle="list" href="#tab-content-1"
-                      role="tab" aria-controls="tab-content-1">Menu #1</a>
-                  <a class="list-group-item list-group-item-action" id="tab-menu-2"
-                      data-toggle="list" href="#tab-content-2"
-                      role="tab" aria-controls="tab-content-2">Menu #2</a>
-                  <a class="list-group-item list-group-item-action" id="tab-menu-3"
-                      data-toggle="list" href="#tab-content-3"
-                      role="tab" aria-controls="tab-content-3">Menu #3</a>
-                </div>
-              </div>
-              <div class="col-8">
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="tab-content-1"
-                      role="tabpanel" aria-labelledby="tab-menu-1">Content #1...</div>
-                  <div class="tab-pane fade" id="tab-content-2"
-                      role="tabpanel" aria-labelledby="tab-menu-2">Content #2...</div>
-                  <div class="tab-pane fade" id="tab-content-3"
-                      role="tabpanel" aria-labelledby="tab-menu-3">Content #3...</div>
-                </div>
-              </div>
-            </div>
-          </div>
+</body>
 
 </html>

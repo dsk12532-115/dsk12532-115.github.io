@@ -1,8 +1,8 @@
 body { 
-    width: 500px; text-align: left; margin-left: auto; margin-right: auto; 
+    margin:50px
 }
     
-textarea { 
+/* textarea { 
     width: 100%; 
 }
 
@@ -22,4 +22,4 @@ table.list th {
 table.list td { 
     padding: 0.5em; 
     vertical-align: top; 
-}
+} */
